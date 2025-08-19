@@ -104,6 +104,7 @@ Search in navigation
  - space before navigation block.
  ============*/
 .sidebar__search {
+    position: relative;
     width: 95%;
     margin: 0 auto;
     margin-bottom: 7%;
@@ -123,6 +124,20 @@ Search in navigation
     color: var(--main-color);
     opacity: 1;
     padding-left: 3%;
+}
+
+/*decore picture for search*/
+.sidebar__search::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background: url('../img/search-dec.png') no-repeat center;
+    background-size: contain;
+    z-index: 2;
 }
 
 /*===========
@@ -235,7 +250,6 @@ Main navigation button
   height: 12px;
   background: url('../img/submenu-dec.png') no-repeat center;
   background-size: contain;
-  transition: transform 0.3s;
 }
 
 .submenu a {
@@ -439,7 +453,7 @@ Adaptive part for mobile
         z-index: 100;
     }
 
-    .sidebar.sidebar.active {
+    .sidebar.active {
         transform: translateX(0);
     }
 
