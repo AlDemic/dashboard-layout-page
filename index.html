@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Page</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="layout">
+        <!--Navigation block-->
+        <div class="overlay" aria-hidden="true"></div>
+        <aside class="sidebar">
+            <p class="sidebar__title">AdminLTE</p>
+            <section class="sidebar__user" aria-label="User details">
+                <p class="sidebar__user-nick">Hadeed Ullah</p>
+                <p class="sidebar__user-status">Online</p>
+            </section>
+
+            <form class="sidebar__search" role="search">
+                <input id="site-search" type="search" placeholder="Search...">
+            </form>
+            <nav class="sidebar__navigation" aria-label="Main navigation">
+                <h3 class="sidebar__navigation-title">MAIN NAVIGATION</h3>
+                <ul>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="img/nav-btn-1.png" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Dashboard</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Dashboard__one</a></li>
+                            <li><a href="#">Dashboard__two</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="img/nav-btn-2.png" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Point of sale</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Retail</a></li>
+                            <li><a href="#">Whole Sale</a></li>
+                            <li><a href="#">Sales Register</a></li>
+                            <li><a href="#">Discounts</a></li>
+                            <li><a href="#">Miscelleneous</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="#" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Products</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Products__one</a></li>
+                            <li><a href="#">Products__two</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="#" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Inventory</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Inventory__one</a></li>
+                            <li><a href="#">Inventory__two</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="#" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Customers</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Customers__one</a></li>
+                            <li><a href="#">Customers__two</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="#" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Reporting</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Reporting__one</a></li>
+                            <li><a href="#">Reporting__two</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                        <button class="dropdown-menu__btn" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="#" alt="" aria-hidden="true" />
+                            </div>
+                            <span>Users</span>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">Users__one</a></li>
+                            <li><a href="#">Users__two</a></li>
+                        </ul>
+                    </li>
+                    <!--submenu block-->
+                    <li class="dropdown-menu">
+                            <div class="dropdown-menu__pic" aria-hidden="true">
+                                <img src="#" alt="" aria-hidden="true" />
+                            </div>
+                            <a href="#">Store Setup</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!--Main Block-->
+        <div class="main">
+            <!--Header part-->
+            <header class="header">
+                <!--Burger button-->
+                <button id="header__burger" aria-lable="Open menu" aria-expanded="false" aria-controls="nav">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+
+                <div class="header__user" aria-hidden="true">
+                    <section class="header__notifications" aria-label="User notifications">
+                        <a href="#"><img src="img/user-mails.png" src="User mails" /></a>
+                        <a href="#"><img src="img/user-bell.png" src="User site notifications" /></a>
+                        <a href="#"><img src="img/user-flag.png" src="User bookmarks notifications" /></a>
+                    </section>
+
+                    <section class="header__profile" aria-label="Profile control">
+                        <a href="#" class="header__profile-nick" aria-label="Profile link">Hadeed Ullah</a>
+                        <a href="#"><img src="img/user-settings.png" src="Account settings"/></a>
+                    </section>
+                </div>
+            </header>
+            <!--Main part-->
+            <main class="content">
+                <div class="content__title" aria-hidden="true">
+                    <h2>
+                        AdminLTE
+                        <span class="content__title-additional">AdminLTE</span>
+                    </h2>
+                    <!--Content pagination-->
+                    <nav class="content__breadcrumb" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Examples</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blank Page</li>
+                        </ol>
+                    </nav>
+                </div>
+                <!--Content text area block-->
+                <form class="content__text" aria-label="Text block">
+                    <input id="content__text-title" name="content__text-title" type="text" placeholder="Home" minlength="3" maxlength="150" required />
+                    <textarea id="content__text-mainText" name="content__text-mainText" placeholder="Start creating your amazing application" minlength="3" maxlength="1024" required></textarea>
+                    <input id="content__text-footer" name="content__text-footer" type="text" placeholder="Footer" minlength="3" maxlength="150" />
+                </form>
+            </main>
+        </div>
+    </div>
+
+    <!--scripts-->
+    <script src="js/burger-btn.js" defer></script>
+    <script src="js/dropdown-menu.js" defer></script>
+</body>
+</html>
+
